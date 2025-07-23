@@ -76,7 +76,6 @@ These wallets exhibit strong signs of bot-like or spammy behavior—many transac
 Below is the distribution and analysis of credit scores:
 
 ![Credit Score Analysis](analysis.png)
-
 ---
 
 ## ✅ Conclusion
