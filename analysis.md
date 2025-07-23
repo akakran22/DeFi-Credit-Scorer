@@ -1,4 +1,3 @@
----
 ```markdown
 # DeFi Credit Score Analysis Report
 
