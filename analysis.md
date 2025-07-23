@@ -73,15 +73,9 @@ These wallets exhibit strong signs of bot-like or spammy behavior—many transac
 ---
 
 ## 🖼️ Visual Summary
+Below is the distribution and analysis of credit scores:
 
-
-
-Refer to `credit_score_visualizations.png` for the following plots:
-- Score distribution histogram
-- Component-wise score breakdown
-- Transaction volume vs. credit score
-- Activity span vs. credit score
-- Correlation heatmap between scoring components
+![Credit Score Analysis](analysis.png)
 
 ---
 
