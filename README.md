@@ -19,6 +19,3 @@ This project is a **comprehensive credit scoring system** built using transactio
 - Saves results (CSV) and charts (PNG) to disk.
 
 ---
-
-## 📂 Project Files
-
