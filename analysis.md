@@ -1,8 +1,4 @@
-
 ---
-
-## 📊 `analysis.md`
-
 ```markdown
 # DeFi Credit Score Analysis Report
 
@@ -12,10 +8,10 @@ This analysis provides insights into the behavior of DeFi wallets based on the c
 
 ## 📈 Score Distribution
 
-**Total Wallets Analyzed**: 3,497  
-**Average Credit Score**: 620.49  
-**Median Credit Score**: 607.50  
-**Standard Deviation**: 113.46
+Total Wallets Analyzed: 3,497  
+Average Credit Score: 620.49  
+Median Credit Score: 607.50  
+Standard Deviation: 113.46
 
 ### 📊 Distribution by Score Range
 
@@ -38,14 +34,14 @@ This analysis provides insights into the behavior of DeFi wallets based on the c
 
 ## 🟢 High Score Wallets (Score ≥ 700)
 
-**Count**: 965 wallets
+Count: 965 wallets
 
 ### Key Characteristics:
-- **Avg. Transactions**: ~12.8  
-- **Avg. Total Volume (USD)**: ~$2,315  
-- **Avg. Activity Span**: ~34.7 days  
-- **Avg. Repay-to-Borrow Ratio**: ~0.91  
-- **Avg. Liquidation Ratio**: ~0.007
+- Avg. Transactions: ~12.8  
+- Avg. Total Volume (USD): ~$2,315  
+- Avg. Activity Span: ~34.7 days  
+- Avg. Repay-to-Borrow Ratio: ~0.91  
+- Avg. Liquidation Ratio: ~0.007
 
 **Interpretation**:
 These wallets show strong repayment behavior, low liquidation risk, consistent activity over weeks, and diverse asset interactions—indicating reliability.
@@ -54,30 +50,32 @@ These wallets show strong repayment behavior, low liquidation risk, consistent a
 
 ## 🔴 Low Score Wallets (Score ≤ 300)
 
-**Count**: 11 wallets
+Count: 11 wallets
 
 ### Key Characteristics:
-- **Avg. Transactions**: ~2.1  
-- **Avg. Total Volume (USD)**: ~$78  
-- **Avg. Activity Span**: ~1.4 days  
-- **Round Number Ratio**: ~0.82  
-- **Repetitive Pattern Score**: ~0.79
+- Avg. Transactions: ~2.1  
+- Avg. Total Volume (USD): ~$78  
+- Avg. Activity Span: ~1.4 days  
+- Round Number Ratio: ~0.82  
+- Repetitive Pattern Score: ~0.79
 
-**Interpretation**:
+Interpretation:
 These wallets exhibit strong signs of bot-like or spammy behavior—many transactions use round numbers, follow repetitive action patterns, and occur in short time spans.
 
 ---
 
 ## 🔍 Observations
 
-- **No wallets scored above 900** — this suggests high scores are difficult to attain due to strict behavioral consistency and anomaly detection.
-- **Round number patterns** are a strong signal of bot activity and are penalized in scoring.
-- **High scoring wallets** exhibit human-like behavior, higher diversity, and longer engagement durations.
-- **Activity span and transaction variance** play a significant role in differentiating low- and high-score clusters.
+- No wallets scored above 900 — this suggests high scores are difficult to attain due to strict behavioral consistency and anomaly detection.
+- Round number patterns are a strong signal of bot activity and are penalized in scoring.
+- High scoring wallets exhibit human-like behavior, higher diversity, and longer engagement durations.
+- Activity span and transaction variance play a significant role in differentiating low- and high-score clusters.
 
 ---
 
 ## 🖼️ Visual Summary
+
+
 
 Refer to `credit_score_visualizations.png` for the following plots:
 - Score distribution histogram
