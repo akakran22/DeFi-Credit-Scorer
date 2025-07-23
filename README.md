@@ -16,6 +16,5 @@ This project is a **comprehensive credit scoring system** built using transactio
   - Anomaly detection (Isolation Forest)
   - Health, risk, activity & behavior heuristics
 - Generates analysis and high-quality visualizations.
-- Saves results (CSV) and charts (PNG) to disk.
+- Saves results (CSV) and charts (PNG) to device.
 
----
